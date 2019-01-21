@@ -1,4 +1,4 @@
-# Патч с INCREMENT&DECREMENTС к Python 2.7.15
+# Патч с INCREMENT и DECREMENT к Python 2.7.15
 
 Перед установкой данного патча, необходимо скачать исходный код Python 2.7.15, выполнив команду
 ```sh
@@ -20,4 +20,3 @@ git am --signoff < inc.patch
 make -j2
 ```
 При успешной сборке, в каталоге появится исполняемый файл `python`
-
